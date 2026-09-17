@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SANDHYA</string>
+    <string name="accessibility_service_description">SANDHYA uses Accessibility only for user-requested supported actions such as Home, Back, Recents, scrolling, gestures, and reading accessible UI text.</string>
+</resources>
