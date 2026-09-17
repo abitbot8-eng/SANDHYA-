@@ -109,7 +109,7 @@ class MainActivity : ComponentActivity() {
                         Uri.parse("package:$packageName")))
                 }
             }
-            "media" -> startActivity(Intent(Settings.ACTION_APP_STORAGE_SETTINGS).apply {
+            "media" -> startActivity(Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
                 data = Uri.parse("package:$packageName")
             })
         }
